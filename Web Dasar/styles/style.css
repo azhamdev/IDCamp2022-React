@@ -1,0 +1,22 @@
+body{
+    font-family: sans-serif;
+}
+
+h1{
+    color: coral
+}
+
+h2{
+    color: blueviolet;
+}
+
+h3{
+    color: cornflowerblue;
+}
+
+footer{
+    padding: 20px;
+    color: #fff;
+    background-color: #00a2c6;
+    text-align: center;
+}
