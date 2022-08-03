@@ -1,0 +1,120 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  padding: 0px;
+  /* background: linear-gradient(55deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 85%); */
+  background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+.jumbotron {
+  background-color: #3AB4F2;
+  text-align: center;
+  padding: 50px;
+  font-size: 20px;
+  color: white;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+}
+
+nav {
+  background-color: #0078AA;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+}
+
+article h2 {
+  color: #D61C4E;
+  font-size: 24px;
+  text-align: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+main {
+  padding: 10px;
+  overflow: auto;
+}
+
+.aside {
+  text-align: center;
+}
+
+.aside h2 {
+  color: #0078AA;
+}
+
+.informasi {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.informasi h3 {
+  color: #0078AA;
+}
+
+#content {
+  float: left;
+  width: 74%;
+}
+
+aside {
+  float: right;
+  width: 25%;
+  overflow: auto;
+}
+
+main img {
+  width: 100%;
+}
+
+footer {
+  /* background-color: #0078AA; */
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+header {
+  display: inline;
+}
+
+
+@media screen and (max-width: 1000px) {
+
+  #content,
+  aside {
+    width: 100%;
+    padding: 0%;
+  }
+}

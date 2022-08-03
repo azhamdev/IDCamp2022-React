@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.flex-column {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #541690;
+  padding: 20px;
+  width: 800px;
+  box-shadow: 20px 27px 67px -17px rgba(0, 0, 0, 0.59);
+  -webkit-box-shadow: 20px 27px 67px -17px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: 20px 27px 67px -17px rgba(0, 0, 0, 0.59);
+}
+
+.display {
+  text-align: right;
+  background-color: grey;
+  margin: 5px;
+  padding-right: 20px;
+  color: white;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.button {
+  flex-basis: 25%;
+  flex-grow: 1;
+  background-color: #f1f1f1;
+  margin: 5px;
+  /* height: 50px; */
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.double {
+  flex-basis: 50%;
+}
+
+.numb:hover {
+  background-color: white;
+}
+
+.negative,
+.operator,
+.equals {
+  background-color: #d7d73c;
+}
+
+.equals:hover {
+  background-color: #ffff00;
+}
+
+.operator:hover {
+  background-color: #ffff00;
+}
+
+.negative:hover {
+  background-color: #ffff00;
+}
+
+.clear {
+  background-color: #FF8D29;
+}
+
+.clear:hover {
+  background-color: #ff7700;
+}
